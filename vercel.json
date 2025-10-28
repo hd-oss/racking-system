@@ -1,0 +1,10 @@
+{
+  "outputDirectory": "public",
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

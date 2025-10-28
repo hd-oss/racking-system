@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Warehouse-Racking",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Warehouse-Racking (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Warehouse-Racking (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run Dev Server",
+            "configurations": [],
+            "preLaunchTask": "run-dev"
+        },
+        {
+            "name": "Build Production",
+            "configurations": [],
+            "preLaunchTask": "build-web"
+        }
+    ]
+}

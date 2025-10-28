@@ -1,0 +1,21 @@
+# Ignore unnecessary files for Vercel deployment
+.git
+.github
+.gitignore
+.env
+.env.*.local
+.dart_tool
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea
+.vscode
+build
+coverage
+*.iml
+*.lock
+README.md
+CHANGELOG.md
+analysis_options.yaml
+pubspec.lock
+scripts/
+test/
